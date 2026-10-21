@@ -4,6 +4,12 @@ Um botão para deixar o PC livre antes de jogar. O Modo Game fecha tudo o que n�
 
 ![Tela de Boost](docs/boost.png)
 
+**[⬇️ Baixar o ModoGame.exe (v1.0)](https://github.com/wandercosta/modo-game/releases/latest)** · Windows 10/11 · 56 KB · sem instalador
+
+## Por que fiz
+
+Antes de jogar eu fechava navegador, Slack, apps de IA, emuladores e servidores de desenvolvimento um por um, e sempre esquecia algum consumindo memória. O Modo Game resolve isso com um clique e devolve tudo do jeito que estava quando o jogo acaba.
+
 ## Recursos
 
 - **Sem lista fixa:** lê todos os processos da sua sessão, como o Gerenciador de Tarefas, e fecha o que não estiver protegido. Inclusive o que você nem sabia que estava rodando.
@@ -30,7 +36,7 @@ As regras ficam em [`src/Engine.cs`](src/Engine.cs) (`SystemNames`, `KeepPrefixe
 
 ## Como usar
 
-1. Baixe ou compile o `ModoGame.exe` e dê dois cliques.
+1. [Baixe o `ModoGame.exe`](https://github.com/wandercosta/modo-game/releases/latest) (ou compile, veja abaixo) e dê dois cliques.
 2. Na primeira vez, o Windows pode mostrar "O Windows protegeu seu computador". Clique em **Mais informações → Executar assim mesmo** (o exe não tem assinatura digital).
 3. Aceite o pedido de administrador. Ele é necessário para fechar todos os processos.
 4. Opcional: na tela **Processos**, desligue o que deve continuar aberto (ex.: Discord).
